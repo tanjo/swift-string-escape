@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#122538">
+    <!-- Icon -->
+    <link rel="apple-touch-icon" href="web/dotfiles@144.png" />
+    <link rel="shortcut icon" href="web/dotfiles@144.png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="web/main.css">
+    <title>dotfiles</title>
+</head>
+<body>
+    <h1>Swift String Escape</h1>
+    <p>
+      Swift のエスケープ文字を自動反映するやつ.今のところJSONだけ対応. <br>
+      Input に何か入力するとエスケープ化された文字列が Output に返ってきます.
+    </p>
+    <div id="content">
+      <h2>Input</h2>
+      <textarea id="input" name="input" rows="4" cols="100"></textarea>
+      <h2>Output</h2>
+      <textarea id="output" name="output" rows="4" cols="100"></textarea>
+    </div>
+</body>
+<!-- marked -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
+<!-- main.js -->
+<script src="script.js"></script>
+</html>
